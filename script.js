@@ -20,14 +20,14 @@ timerObj.style.fontSize = 72+"pt";
 timerObj.style.display = "none";
 
 document.getElementsByTagName('body')[0].insertAdjacentHTML
-('beforeEnd', '<img src="img/pig.png" id="pig">');
+('beforeEnd', '<img src="pig.png" id="pig">');
 var pig = document.getElementById('pig');
 pig.style.position = 'fixed';
 pig.style.display = "none";
 
 
 document.getElementsByTagName('body')[0].insertAdjacentHTML
-('beforeEnd', '<img src="img/orange.png" id="orange">');
+('beforeEnd', '<img src="orange.png" id="orange">');
 var orange = document.getElementById('orange');
 orange.style.position = 'fixed';
 orange.style.display = "none";
